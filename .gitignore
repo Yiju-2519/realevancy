@@ -10,8 +10,8 @@ staticfiles/
 media/
 
 # Virtual environments
-venv/
-.venv/
+venv-realevancy/
+.venv-realevancy/
 
 # macOS
 .DS_Store
