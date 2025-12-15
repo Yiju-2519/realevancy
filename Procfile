@@ -1,3 +1,3 @@
-web: gunicorn realevancy.wsgi:application
+web: cd realevancy && gunicorn realevancy.wsgi:application
 
 
