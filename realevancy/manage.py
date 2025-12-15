@@ -3,8 +3,6 @@
 import os
 import sys
 
-'test test///'
-
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'realevancy.settings')

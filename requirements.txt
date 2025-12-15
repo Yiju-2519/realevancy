@@ -1,0 +1,8 @@
+django==3.2.6
+pandas
+dill
+tinydb
+gunicorn
+whitenoise
+
+
