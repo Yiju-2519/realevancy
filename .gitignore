@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+
+# Django
+staticfiles/
+media/
+
+# Virtual environments
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+

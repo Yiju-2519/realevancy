@@ -16,7 +16,7 @@ def predict(request):
     link= request.POST.get('link')
     # Load the trained model from the project directory so it works locally and on Render.
     # Place your model file at: realevancy/realevancy/machine_learning/my_model_final
-    model_path = settings.BASE_DIR / "machine_learning" / "my_model_final"
+    model_path = settings.BASE_DIR / "realevancy" / "machine_learning" / "my_model_final"
     with open(model_path, "rb") as f:
         prediction = dill.load(f)
     
